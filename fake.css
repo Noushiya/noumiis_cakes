@@ -1,0 +1,110 @@
+/* Swiper container styling */
+.swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    background-color: #ffff;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#header {
+    text-align: center;
+    background-color: #f8e8e8; /* Set your desired background color here */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+#header h2 {
+    margin: 0;
+    color: #333; /* Adjust text color as needed */
+}
+
+
+.cbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ADD8E6;
+    padding: 10px;
+    margin-left: 65px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cbox:hover {
+    transform: scale(1.05); /* Slight scale and rotation effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow for hover effect */
+}
+
+
+.cbox img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cake-btn {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cake-btn button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.10s ease;
+    transform: scale(1.1);
+}
+
+.cake-btn button:hover {
+    background-color: #ffff;
+    color: black;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+/* Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: black !important;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+/* Swiper pagination dots */
+.swiper-pagination-bullet {
+    background: black;
+}
+
+.swiper-pagination {
+    bottom: 10px;
+}
