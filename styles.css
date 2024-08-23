@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -130,7 +131,6 @@ body {
 .home .homeContent {
     width: 100%;
     max-width: 600px;
-    
 }
 
 .home .homeContent h2 {
@@ -140,14 +140,12 @@ body {
     margin-bottom: 1rem;
     color: #F24D5D; /* Deep Pink */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    
 }
 
 .home .homeContent p {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
-    
 }
 
 .home .homeContent .home-btn button {
@@ -170,7 +168,7 @@ body {
     padding: 2rem 7%;
 }
 
-h2 {
+#ep h2 {
     text-align: center;
     color: #F24D5D; /* Deep Pink */
     font-size: 2rem;
@@ -229,15 +227,14 @@ h2 {
     max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content: center; /* Center the images horizontally */
     gap: 10px;
-    
 }
 
-.container .head h2{
+.container .head {
+    width: 100%;
     text-align: center;
     padding-bottom: 40px;
-    
 }
 
 .container img {
@@ -248,12 +245,14 @@ h2 {
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.684);
     transition: all ease-in-out 0.5s;
+    transform-origin: center; /* Ensure expansion is centered */
 }
 
 .container img:hover {
     width: 21.5%;
 }
 
+/* About Section */
 .about-section {
     background-color: #F8C6C4; /* Light Pink */
     padding: 60px 20px;
@@ -353,36 +352,4 @@ h2 {
 
 @media (max-width: 480px) {
     .navbar .text h2 {
-        font-size: 18px;
-    }
-
-    .home .homeContent h2 {
-        font-size: 1.5rem;
-    }
-
-    .home .homeContent p {
-        font-size: 0.9rem;
-    }
-
-    .box {
-        width: 90%;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-
-    .container img {
-        width: 100%;
-        height: auto;
-    }
-
-    .about-section h2 {
-        font-size: 2rem;
-    }
-
-    .about-section p {
-        font-size: 0.9rem;
-    }
-}
+        font-size
