@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -225,17 +224,20 @@ h2 {
 
 /* Image Gallery Section */
 .container {
-    margin: 100px auto;
+    margin: auto;
     width: 90%;
     max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: baseline;
     gap: 10px;
+    
 }
 
 .container .head h2{
     text-align: center;
+    padding-bottom: 40px;
+    
 }
 
 .container img {
@@ -249,7 +251,7 @@ h2 {
 }
 
 .container img:hover {
-    width: 20%;
+    width: 21.5%;
 }
 
 .about-section {
@@ -258,8 +260,8 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about-section .container {
-    max-width: 800px;
+.about-section .container1 {
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
@@ -369,6 +371,7 @@ h2 {
     .container {
         width: 100%;
     }
+
 
     .container img {
         width: 100%;
