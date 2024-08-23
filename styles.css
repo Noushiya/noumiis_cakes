@@ -103,7 +103,7 @@ body {
 }
 
 .navbar .icons .fa-shopping-cart {
-    color: #F24D5D; /* Deep Pink */
+    color: #F7A9A3; /* Deep Pink */
 }
 
 .navbar .icons .fa-heart:hover {
@@ -235,6 +235,15 @@ body {
     width: 100%;
     text-align: center;
     padding-bottom: 40px;
+    
+}
+
+.container .head h2{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #F24D5D; /* Deep Pink */
+    font-size: 2rem;
+    margin-top: -10px;
 }
 
 .container img {
