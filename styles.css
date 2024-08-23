@@ -352,4 +352,27 @@ body {
 
 @media (max-width: 480px) {
     .navbar .text h2 {
-        font-size
+        font-size: 18px;
+    }
+
+    .home .homeContent h2 {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .social-icon {
+        font-size: 1.25rem;
+    }
+
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
